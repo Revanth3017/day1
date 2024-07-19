@@ -1,7 +1,64 @@
 .top-section {
   text-align: center;
+  padding: 10px;
+}
+
+.background {
+  background-color: #f2f8ff;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 30px;
+  height: 100vh;
+}
+
+.background-container {
+  background-color: white;
+  border: 1px solid #006dd9;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .user-list {
-  font-family: roboto;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 450;
+  padding: 3rem;
+}
+
+@media (max-width: 425px) {
+  .user-list {
+    font-size: 30px;
+    font-weight: 450;
+  }
+}
+
+.advisors {
+  color: #7c7d7c;
+  font-size: 1.1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media (max-width: 425px) {
+  .advisors {
+    font-size: 22px;
+  }
+}
+
+.Alignment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (min-width: 1020px) {
+  .Alignment {
+    flex-direction: row;
+  }
+}
+
+.advisers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
